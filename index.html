@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RAI-N Team Portfolio Wesite</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+    <button id="recommend_btn" onClick="addRecommendation()">Recommend</button>
+
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Jane Doe
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Welcome to RAI-N Team Portfolio Web-Site! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            Where human thought meets advanced technology, 
+            we are crafting tomorrow's software today.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="data:image/jpeg;base64,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yOkq3aHWWjwhX5rBchQMkDJ3L0H6JYrZxVt1NJgykDBByCMeIMDomf8AadrqDS6lhbI9S4rJ0RFLFVznc2PAdJoEzbVzW4V42q3y21S4o10VSaY3PTZcdMeRxAneAdbparoaU6G5XoIlOojDayMFx1HkcGWyUDge0rXnEN1qN7RagtYKiU2GGKr9Zh59P1y/wEREBERAREQERED4RkdZ4UbdKOeQirnxwAM/fidEQEREBERArnGOkvq2mqlsFbbUV2puSqVVGcoxHgOoP/1nHp6vwlwdVe7Ck0xUqBFJZEUklUUnqQPCW+c1zbLeWzU7gBkcFWHsKkYIgZH8mX/yX8u97Tncvfy9g2cnx2Z+7/WaloGofK+i0q4GOYitjyJHUSlf7Nn5fd+/1+6ZzyOmduc7d2fD8Jf7a2Wztlp24CogCqPYFAwBA6YiIFd4n0N9XNJ7VqYekzMFqrzKbblKncvmM9DOvhzS/kbR6dvu3bAcnGASSScD2DJ6DykvEBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERED//2Q=="/>
+            <h6>Generative AI</h6>
+            <p>3 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://static.vecteezy.com/system/resources/previews/023/468/957/original/brain-computer-interface-blue-gradient-concept-icon-control-processes-metaverse-technology-abstract-idea-thin-line-illustration-isolated-outline-drawing-vector.jpg"/>
+            <h6>Brain-Computer Interfaces</h6>
+            <p>3 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="data:image/png;base64,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"/>
+            <h6>Python</h6>
+            <p>3 years experience</p>
+          </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Personalised Chatbot</h3>
+            <ul>
+              <li>Constructed a secure web platform featuring a personalized chatbot for a client in the automotive sector, utilizing HTML, CSS, JavaScript, and IBM Watson Assistant.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>BCI Sentiment Analyzer</h3>
+            <ul>
+              <li>With the help of BCI, developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>VR Fashion Website Online Streaming Platform</h3>
+            <ul>
+              <li>Constructed VR streaming service a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendation">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jane is a very quick learner and quickly grasps key concepts of Web development. 
+          She got a great attitude & she is an excellent team player. 
+          She has a curious mind and asks the right question. 
+          She takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jane has been an awesome experience. 
+          She is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need her expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Jane during the initial phase of our venture which needed Web development. 
+          She is a committed resource who has in depth knowledge about the domain. 
+          She will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            I'm thrilled that Jane was part of our team during the early stages of our project, which required web development expertise. She is a dedicated professional with a deep understanding of the field. Any organization would be fortunate to have her as an asset. 
+            <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            During the early stages of our project requiring web development, we collaborated with Jane. She is a dedicated professional with extensive expertise in the field. Any organization would greatly benefit from having her on their team! 
+            <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            I collaborated with Jane in the early stages of our project that required web development expertise. She is a dedicated team member with deep understanding of the field. Any organization would benefit greatly from having her on board!
+            <span>&#8221;</span>
+          </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Wow! Thank you!!!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
